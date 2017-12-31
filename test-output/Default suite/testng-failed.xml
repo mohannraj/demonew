@@ -5,7 +5,9 @@
     <classes>
       <class name="com.projectName.LoginModule.AT_Login_Invalid">
         <methods>
+          <include name="dd"/>
           <include name="postCondition"/>
+          <include name="end"/>
           <include name="testAT_Login_Invalid"/>
           <include name="precondition"/>
         </methods>
